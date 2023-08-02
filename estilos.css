@@ -1,0 +1,126 @@
+* {
+    background-color: rgb(255, 105, 150);
+}
+
+div {
+    margin-left: 10%;
+    margin-right: 10%; 
+}
+
+h1 {
+    color: rgb(128, 27, 57);
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding: 5%;
+    letter-spacing: 55px;
+    background-image: url(place-of-work-women-g6aaeff21f_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 0 80px rgb(252, 167, 193);
+}
+
+#encabezado p {
+    text-align: center; 
+    margin: 50px; 
+}
+
+ul {
+    list-style-type: square; color: azure;
+    font-family: 'Times New Roman';
+    font-size: 120%;
+}
+
+.menu input{
+    font-family:Impact;
+    font-size: 120%;
+    background-color: azure;
+    color: rgb(255, 63, 121);
+    border-color: rgb(255, 63, 121);
+    border-radius: 1em;    
+}
+
+.menu :hover {
+    color: rgb(250, 130, 190);
+    transform: scale(1.2)
+}
+
+* p {
+    color: azure;
+    font-family: 'Times New Roman';
+    font-size: 120%; 
+    margin: 20px 0;
+}
+
+
+h2 {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);;
+    background-color: rgb(255, 63, 121);
+    text-align: left;
+}
+
+h3 {
+    font-family: arial;
+    font-style: italic;
+    color: rgb(128, 27, 57);
+    
+}
+
+strong {
+    color: rgb(128, 27, 57);
+    font-family: arial;
+    font-size: 90%;
+
+}
+
+.styled-table {
+    border: 5px solid azure;
+    margin: 50px 0;
+    font-size: 120%;
+    font-family: 'Times New Roman';
+    color: rgb(128, 27, 57);
+    box-shadow: 0 0 20px rgb(252, 167, 193);
+    background-color: azure;
+    margin:0 auto
+    
+}
+
+table :hover {
+    color: azure;
+    transform: scale(1)
+}
+
+#contacto {
+    text-align: center;
+    margin-bottom: 100px;
+    color: azure;
+    font-family: 'Times New Roman';
+    font-size: 120%;
+}
+
+form input {
+   background-color: azure;
+
+}
+
+form textarea {
+    background-color: azure;
+}
+
+
+.botón {
+    font-family:Impact;
+    font-size: 120%;
+    background-color: azure;
+    color: rgb(255, 63, 121);
+    border-color: rgb(255, 63, 121);
+    border-radius: 1em;  
+}
+
+img {
+    width: 50px;
+    margin-right: 5%;
+    filter: drop-shadow(0 0 5px azure);
+}
+
