@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>Mi primer portafolio web</title>
+  </head>
+
+  <body>
+
+    <div id="encabezado">
+      <h1>NATALIA DÍAZ</h1>
+      <p>Me apasionan las TIs. Soy maestra de primaria, y actualmente me encuentro formándome en desarrollo web con el fin de poder combinar los conocimientos y, en un futuro, crear herramientas que mejoren la educación.</p><br>
+      <div class="menu">
+        <a href="#perfil" ><input type="button" value="Sobre mí" style="margin-right: 12%;"></a> 
+        <a href="#conocimientos"><input type="button" value="Conocimientos y habilidades" style="margin-right: 10%;"></a>
+        <a href="#formación"><input type="button" value="Formación" style="margin-right: 12%;"></a>
+        <a href="#experiencia"><input type="button" value="Experiencia" style="margin-right: 12%;"></a>
+        <a href="#contacto"><input type="button" value="Contacto"></a></li> <br>
+      </div>
+    </div>
+
+   
+    <div id="perfil">
+      <h2>Sobre mí</h2> <br>
+            <h3>Datos Personales</h3>
+                <p>
+                    <strong>Nombre completo:</strong>  Natalia Rocío Díaz Silvera <br>
+                    <strong>Edad:</strong> 25 años <br>
+                    <strong>Localidad</strong> San Carlos, Uruguay <br>
+                    <strong>Correo:</strong> natalia_*****@*****.com  </p>
+                    
+                   <p>Me considero una persona con gran capacidad para trabajar en equipo y con ánimos de innovar. Disfruto creando y compartiendo con mis pares. Soy autocrítica y autodidácta, me encanta continuar aprendiendo cosas nuevas, o de mis errores. </p> <br>
+                  
+    </div>
+
+    <div id="conocimientos">
+        <h2>Conocimientos y habilidades</h2><br>
+        <ul>
+            <li>Diseño gráfico</li>
+            <li>HTML, CSS, Javascript</li>
+            <li>Inglés avanzado</li>
+            <li>Manejo de paquete Microsoft Office</li>
+        </ul>
+        <br>
+    </div>
+
+    <div id="formación">
+        <h2>Formación</h2><br>
+        <table class="styled-table">
+            <thead>
+                <th>Curso</th>
+                <th>Institución</th>
+                <th>Estado</th>
+            </thead>
+
+            <tr>
+                <td>Bachillerato</td>
+                <td>Liceo N°1 Mariano Soler</td>
+                <td>Finalizado</td>
+            </tr>
+
+            <tr>
+                <td>Diseño gráfico</td>
+                <td>BIOS</td>
+                <td>Finalizado</td>
+            </tr>
+         
+            <tr>
+                <td>Magisterio</td>
+                <td>Instituto de formación docente</td>
+                <td>Finalizado</td>
+            </tr>
+
+            <tr>
+                <td>Desarrollo web</td>
+                <td>Jóvenes a programar</td>
+                <td>Cursando actualmente</td>
+            </tr>
+        </table>
+        <br>
+    </div>
+
+    <div id="experiencia">
+        <h2>Experiencia</h2><br>
+        <ul>
+            <li><strong>Punta Cable: </strong> servicio al cliente</li>
+            <li><strong>Farmashop:</strong>cajera y vendedora</li>
+            <li><strong>Lore Díaz Yoga:</strong> copywriter</li>
+        </ul>
+        <br>
+    </div>
+
+    <div id="contacto">
+        <h2>Contacto</h2><br>
+        <h3>Redes Sociales</h3>
+        <ul>
+            <a href="#"><img src="instagram.png" alt=""></a> 
+            <a href="#"><img src="facebook.png" alt=""></a>
+            <a href="#"><img src="github.png" alt=""></a>
+        </ul>
+
+        <h3>Enviar mensaje</h3>
+        <form action="">
+         <label>Nombre:</label>   
+         <input type="text" name="nombre" id="nombre"> <br><br>
+         <label>Correo electrónico:</label>
+         <input type="email" name="email" id="email"> <br><br>
+         <label>Asunto:</label>
+         <input type="text" name="asunto" id="asunto">  <br><br>
+         <label>Mensaje:</label><br>
+         <textarea name="mensaje" id="mensaje" cols="50" rows="10"></textarea> <br><br>
+         <input type="button" value="Enviar" name="enviar" id="enviar" class="botón">
+        </form>
+    </div>
+
+  </body>
+</html>
